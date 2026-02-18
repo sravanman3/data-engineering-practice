@@ -1,5 +1,5 @@
 
-with open("matrix.txt","r") as file:
+with open("matrix.txt", "r") as file:
     outer_list = []
     sum_of_num = 0
     count_of_negative = 0

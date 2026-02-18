@@ -5,7 +5,7 @@ import load as load_data
 def extract_it_emp():
     err_counter = 0
     it_emp_counter = 0
-    with open("employees.txt","r") as emp_file:
+    with open("employees.txt", "r") as emp_file:
         start_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         logger.log_msg(f"Started at {start_time}")
         it_employees = []

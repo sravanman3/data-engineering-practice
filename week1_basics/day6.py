@@ -47,7 +47,7 @@
 #         emp_file.write(employee + "\n")
 #
 # # # Challenge 3
-with open("nums.txt","r") as f, open("negatives.txt","w") as n_file, open("positives.txt","w") as p_file:
+with open("nums.txt", "r") as f, open("negatives.txt", "w") as n_file, open("positives.txt", "w") as p_file:
     for line in f:
         num = int(line.strip())
         if num >= 0:
