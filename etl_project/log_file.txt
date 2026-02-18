@@ -1,0 +1,7 @@
+Started at 2026-02-18 19:16:00
+Invalid dept for emp: Frank
+invalid data for emp: Paul
+Invalid dept for emp: Uma
+Total no of invalid records: 3
+Total no of IT employees: 13
+Ended at 2026-02-18 19:16:00

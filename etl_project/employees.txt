@@ -1,0 +1,26 @@
+Alice - IT
+Bob - HR
+Charlie - IT
+David - Finance
+Eve - IT
+Frank -
+Grace - HR
+Hannah - IT
+Ian - Finance
+Jack - IT
+Kate - null
+Leo - IT
+Mona - HR
+Nina - it
+Oscar - IT
+Paul
+Quincy - Sales
+Rachel - IT
+Sam - HR
+Tina - IT
+Uma -
+Victor - IT
+Will - Finance
+Xavier - IT
+Yara - HR
+Zane - IT
