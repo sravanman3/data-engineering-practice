@@ -1,0 +1,2 @@
+record,error
+"{'txn_id': '4', 'customer': 'C', 'product_type': 'SALE', 'amount': 'ABC'}",could not convert string to float: 'ABC'

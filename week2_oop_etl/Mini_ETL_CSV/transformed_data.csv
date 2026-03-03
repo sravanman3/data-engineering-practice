@@ -1,0 +1,5 @@
+txn_id,customer,product_type,amount,tax,handling_fee
+1,A,SALE,100.0,18.0,0
+2,B,SALE,-50.0,-9.0,0
+3,A,REFUND,-20.0,-3.6,0
+4,C,SALE,10.0,1.8,0

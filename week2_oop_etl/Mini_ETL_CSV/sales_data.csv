@@ -1,0 +1,5 @@
+txn_id,customer,product_type,amount
+1,A,SALE,100
+2,B,SALE,-50
+3,A,REFUND,-20
+4,C,SALE,ABC
