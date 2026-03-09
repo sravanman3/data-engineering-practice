@@ -1,0 +1,6 @@
+txn_id,customer,product_type,amount
+1,Alice,Electronics,200
+2,Bob,,150
+3,,Clothing,100
+
+4,David,Electronics,abc

@@ -1,0 +1,3 @@
+txn_id,customer,product_type,amount,store_id,region
+T1,Alice,Electronics,100,ST01,West
+T2,Bob,Grocery,200,ST02,East

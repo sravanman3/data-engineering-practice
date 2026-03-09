@@ -1,0 +1,6 @@
+T1,Alice,Electronics,1200
+T2,Bob,Grocery,200
+T3,Charlie,Electronics,invalid
+T4,David,,450
+T5,Eva,Clothing,-300
+T6,,Electronics,800
