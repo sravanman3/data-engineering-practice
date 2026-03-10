@@ -1,7 +1,7 @@
 {
-    "total_records": 5,
-    "valid_records": 4,
+    "total_records": 12,
+    "valid_records": 11,
     "invalid_records": 1,
-    "transform_valid": 2,
-    "transform_invalid": 2
+    "transform_valid": 6,
+    "transform_invalid": 5
 }

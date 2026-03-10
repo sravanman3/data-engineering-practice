@@ -1,0 +1,12 @@
+{
+  "input_file": "data/input/dup_sales.csv",
+  "output_file": "data/output/trans_sales.csv",
+  "error_file": "data/errors/error_sales.csv",
+  "error_threshold": 0.2,
+  "allowed_products": ["Electronics","Clothing","Grocery"],
+  "tax_rates": {
+      "Electronics": 0.18,
+      "Clothing": 0.05,
+      "Grocery": 0
+  }
+}

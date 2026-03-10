@@ -1,0 +1,7 @@
+txn_id,customer,product_type,amount
+T1,Alice,electronics,100
+T2,Bob,Grocery,200
+T3,Carie,Clothing,
+T4,,Furniture,10
+
+T1,Dan,Clothing,100

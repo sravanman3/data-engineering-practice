@@ -1,3 +1,7 @@
 txn_id,customer,product_type,amount,tax
 T1,Alice,Electronics,100.0,18.0
 T4,Katy,Clothing,200.0,10.0
+T8,Kat,Grocery,100.0,0.0
+T9,Kim,Clothing,100.0,5.0
+T10,John,Electronics,200.0,36.0
+T12,Mich,Clothing,120.0,6.0

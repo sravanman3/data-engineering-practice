@@ -1,3 +1,6 @@
 txn_id,customer,product_type,amount,error
 T2,Bob,Grocery,abc,Invalid amount: abc
-T5,Max,Food,10,Invalid Product Type: Food
+T5,Min,Food,10,Invalid Product Type: Food
+T6,Marsh,Furniture,1000,Invalid Product Type: Furniture
+T7,Max,Flowers,100,Invalid Product Type: Flowers
+T11,Jacob,Food,100,Invalid Product Type: Food

@@ -1,13 +1,16 @@
 
-def transform_sales(sales):
+from sales_pipeline.utils.logger import logger
+
+def transform_sales(sales, config):
+
     result = {
         "data" : [],
         "errors" : []
     }
 
     error_list=[]
-    allowed_products = {"Electronics","Grocery","Clothing"}
-    tax_rates = {"Electronics": 0.18, "Clothing" : 0.05 , "Grocery" : 0}
+    allowed_products = config["allowed_products"]
+    tax_rates = config["tax_rates"]
     valid_txns = []
     for row in sales:
         product_type = row.get("product_type","").strip().title()
@@ -54,13 +57,12 @@ def transform_sales(sales):
         }
         valid_txns.append(transformed_row)
 
+    logger.info(f"total valid txns in this run : {len(valid_txns)}")
+    logger.info(f"total error txns in this run : {len(error_list)}")
+
     result["data"] = valid_txns
     result["errors"] = error_list
 
     return result
 
 
-data = [{'txn_id': 'T1', 'customer': 'Alice', 'product_type': 'electronics', 'amount': '100'}, {'txn_id': 'T2', 'customer': 'Bob', 'product_type': 'Grocery', 'amount': 'abc'},
-        {'txn_id': 'T3', 'customer': 'Joe', 'product_type': 'Electronics', 'amount': '-10'},
-        {'txn_id': 'T4', 'customer': 'Max', 'product_type': 'Clothing', 'amount': '10'}]
-print(transform_sales(data))
