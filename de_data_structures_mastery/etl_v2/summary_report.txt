@@ -1,0 +1,24 @@
+ETL SUMMARY REPORT
+----------------------------
+Total Transactions: 1000000
+Valid Transactions: 800849
+Error Transactions: 199151
+
+Average Order Value: 250.71
+
+Top 3 Customers by Revenue
+----------------------------
+Eve: 33581487.0
+Bob: 33534281.0
+Charlie: 33512451.0
+
+Revenue Per Product
+----------------------------
+Furniture: 40057470.0
+Clothing: 40194768.0
+books: 40277601.0
+Grocery: 40174421.0
+Electronics: 40079942.0
+
+Most Popular Product
+Grocery: 160534
