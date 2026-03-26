@@ -1,0 +1,5 @@
+txn_id,customer,product_type,amount,tax,handling_fee,total_amount
+T1,Alice,Electronics,1200.0,120.0,20,1340.0
+T2,Bob,Grocery,200.0,20.0,5,225.0
+T4,David,,450.0,45.0,5,500.0
+T6,,Electronics,800.0,80.0,20,900.0

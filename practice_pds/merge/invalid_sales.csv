@@ -1,0 +1,2 @@
+order_id,customer_id,product_id,quantity,amount,customer_name,segment,product_name,category,error_reason
+6,105,9999,1,500,John,Standard,,,product_id_not_found

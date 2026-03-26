@@ -1,0 +1,6 @@
+order_id,customer_id,product_id,quantity,amount,customer_name,segment,product_name,category,error_reason
+1,101,1001,2,2000,Asha,Premium,Laptop,Electronics,
+2,102,1002,1,800,Ravi,Standard,Mobile,Electronics,
+3,101,1003,3,1500,Asha,Premium,Tablet,Electronics,
+4,103,1004,1,1000,Kiran,Premium,Headphones,Accessories,
+5,104,1002,2,1600,Meena,Standard,Mobile,Electronics,

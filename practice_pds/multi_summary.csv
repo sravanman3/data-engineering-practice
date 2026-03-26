@@ -1,0 +1,6 @@
+customer,product_type,total_rev,total_orders,avg
+Alice,Electronics,1200.0,1,1200.0
+Alice,Clothing,100.0,1,100.0
+Bob,Grocery,200.0,1,200.0
+Frank,Clothing,200.0,1,200.0
+George,Groceries,100.0,1,100.0
